@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /.htpasswds/
+Disallow: /cgi-bin/
+Disallow: /segcontas/
+Disallow: /lawfirm/
+Disallow: /YHB/

@@ -1,0 +1,440 @@
+
+body{
+background-color:#fff;
+font-family: 'Open Sans', sans-serif;
+color:#767676;
+}
+
+section{
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+p, ul{
+	font-weight:400;
+	line-height:1.7;
+	margin:auto;
+}
+
+a{
+	font-weight:700;
+}
+
+a:hover{
+color:#999;
+}
+
+h1, h2, h3, h4, h5, h6, .copy p, .nav, .btn{
+font-family: 'Montserrat', sans-serif;
+color:#000;
+font-weight:700;
+}
+
+h1, h2, h3, h4, h5, h6, .nav, .btn{
+text-transform:uppercase;
+}
+
+ h2{
+	 font-size:18px;
+ }
+
+ h3, h4{
+	 font-size:18px;
+ }
+ 
+ hr{
+	border:0;
+}
+
+hr::before{
+	content:"";
+	display:block;
+	background-color:#1f508f;
+	width:15%;
+	height:4px;
+}
+
+hr::after{
+	content:"";
+	display:block;
+	border-bottom:1px solid #ccc;
+}
+
+address{
+   clear:both;
+   line-height:1.7;
+}
+
+abbr[data-original-title], abbr[title] {
+    border:0;
+	display:inline-block;
+	vertical-align:top;
+	width:10%;
+	float:left;
+}
+
+address span {
+   display:inline-block;
+   width:90%;
+   float:left;
+}
+
+.btn-default{
+background-color:#1f508f;
+border:0;
+border-radius:0;
+color:white;
+}
+
+header{
+	background-color:#003365;
+	color:#fff;
+}
+
+header p{
+	padding:5px;
+	display: inline-block;
+}
+
+header p span{
+	margin-right:15px;
+}
+
+header p span a{
+	font-weight:400;
+	color:white;
+}
+
+header p span .fa{
+	color:#5fb3e7;
+}
+
+section.our-services .fa, .contact-us .fa{
+	color:#1f508f;
+}
+
+.navbar-brand {
+    height:100px;
+}
+
+.navbar-brand img{
+    height:100%;
+}
+
+.navbar-default .navbar-toggle {
+	background-color:#1f508f;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .fa {
+	color:#fff;
+}
+
+.navbar{
+background-color:#fff;
+border-color:transparent;
+border-left:0;
+border-right:0;
+border-radius:0;
+margin-bottom:0;
+text-align:center;
+}
+
+.navbar-default{
+line-height: 0;
+border:0;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color:#333;
+	font-size:18px;
+}
+
+.page-header{
+	border:0;
+	margin:auto;
+}
+
+.page-header h1{
+	color:#fff;
+}
+	
+.lead {
+    font-size: 16px;
+	font-weight:700;
+	line-height:1.7;
+}
+
+.container .jumbotron{
+	border-radius:0;
+	background-color:rgba(1, 29, 56, 0.85);
+	padding:15px 30px;
+	margin-top:15%;
+}
+
+.jumbotron h1, .jumbotron p{
+	color:#ccc;
+}
+
+.jumbotron h1{
+	border-left:7px solid #1f508f;
+	font-size:30px;
+	padding-left:15px;
+	text-transform:uppercase;
+}
+
+.jumbotron p{
+	font-size:16px;
+}
+
+section.home{
+	background: url("../images/home-image.jpg") no-repeat center top;
+}
+
+section.services {
+	padding-bottom: 40px;
+}
+
+section.services h2{
+	 font-size:24px;
+ }
+
+section.services h3 span{
+	color:#1f508f;
+	font-size: 14px;
+	vertical-align: text-bottom;
+}
+
+section.services h3 span .fa-stack-1x{
+	color:#fff;
+}
+
+
+/*about us*/
+section.about-us p:not(.lead), section.our-services p{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+/*services*/
+
+section.our-services h3 {
+	font-size: 16px;
+	color:#777;
+	text-transform: capitalize;
+}
+
+section .content{
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.map{
+	margin-bottom: -25px;
+	padding-top: 50px;
+}
+
+footer{
+background-color:#082037;
+color:#ccc;
+}
+
+footer .content{
+	padding-bottom:40px;
+	padding-top:40px;
+}
+
+footer h4, .copy p{
+color:#fff;
+}
+
+footer h4 span{
+text-transform:capitalize;
+}
+
+footer hr::before{
+	background-color:#7cb8e2;
+	width:33%;
+}
+
+footer hr::after{
+	border-bottom:1px solid #1f508f;
+}
+
+.logos img{
+	margin-top:30px;
+	margin-bottom:15px;
+}
+.social-media a{
+	visibility:hidden;
+	color:#1f508f;
+	font-size: 18px;
+}
+
+.copy{
+	background-color:#022c56;
+}
+
+.copy p{
+line-height:1;
+margin-bottom:0;
+font-size:13px;
+}
+
+
+@media (max-width: 992px){
+	.nav > li > a {
+    padding: 10px;
+	}
+	
+	.navbar-brand {
+    height: 95px;
+}
+}
+
+
+@media (min-width: 1200px){
+	section.home{
+		background-size:100%;
+	}
+}
+
+@media (min-width: 991px){
+	.container .jumbotron {
+    margin-top: 20%;
+	}
+}
+
+@media (min-width: 768px){
+	
+	.navbar-default .navbar-nav > li > a {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+		background-color:transparent;
+		border-bottom: 3px solid #1f508f;
+		color:#1f508f;
+	}
+
+	.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+		color: #1f508f;
+	}
+	
+	.jumbotron .btn{
+		position:absolute;
+		right:0;
+		margin-top:-10px;
+		padding:13px 20px;
+	}
+	
+	.page-header h1{
+		font-size:30px;
+	}
+
+	.heading:before {
+		content: '';
+		background: rgba(9, 32, 54, 0.85);
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+
+	.heading{
+		background-position: 100%;
+		background-size: cover;
+		position: relative;
+		height: 124px;
+	}
+
+	.heading.about{
+		background: url(../images/about-bg.jpg) no-repeat;
+	}	
+	
+	.heading.service{
+		background: url(../images/service-bg.jpg) no-repeat;
+	}	
+}
+
+@media (max-width: 767px){
+	  .navbar-brand {
+		float: left;
+		height: 55px;
+		padding: 5px 15px;
+	}
+	.navbar-default {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		background: #022c56;
+	}
+	
+	.navbar-default .navbar-nav > li > a {
+		color:#fff;
+		font-size:16px;
+	}
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:hover {
+		color: #1f508f;
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #1f508f;
+}
+	.container .jumbotron {
+		background-color: rgba(1, 29, 56, 0.9);
+		margin-top: 12px;
+	}
+	.jumbotron h1, .page-header h1{
+		font-size:20px;
+	}
+	
+	.page-header h1{
+		color: #aaa;
+		text-align:center;
+		padding:15px 0;
+		margin:0;
+	}
+	
+	.page-header{
+		padding-bottom:0;
+	}
+	
+	.jumbotron p {
+    font-size: 14px;
+}
+	.heading {
+		background:#eee;
+		padding:0;
+	}
+	
+	.lead {
+		font-size: 14px;
+	}	
+	address {
+    margin-bottom:0;
+	}
+	
+	section .content, section.contact-us, section.home{
+		padding:0;
+	}
+	
+	.map{
+	margin:0;	
+	}
+	
+	h2{
+		font-size:16px;
+	}
+}
+
+
+@media (max-width: 320px){
+	header p{
+		font-size:12px;
+	}
+}

@@ -1,0 +1,345 @@
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color:#ede9e4;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  line-height: 20px;
+  color: #92887e;
+ /* body padding for fixed top nav */
+}
+
+p {
+font-size:15px;
+line-height:26px;
+}
+
+h1, .btn-custom, footer h4, h2{
+color:#b7b1a9;
+font-family:"Oswald";
+font-size:36px;
+}
+
+h2.contact, h3.team{
+font-family:"Afta serif";
+font-size:26px;
+}
+
+h3.team{
+margin-top:0;
+}
+
+h2{
+font-size:36px;
+}
+
+.btn-custom{
+background-color:#b7b1a9;
+border-radius:0;
+color:#793d49;
+font-size:25px;
+line-height:0;
+margin:20px 0;
+padding:20px 40px;
+}
+/* nav bar custom styles*/
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+margin-left: 0px;
+}
+
+.navbar-inverse .navbar-collapse {
+margin-left: -15px;
+}
+
+.navbar{
+background-color: #fff;
+border:0;
+margin-bottom:0;
+}
+
+.navbar-inverse .navbar-toggle{
+background-color:#000;
+}
+
+.navbar-brand , .navbar-header{
+float: none;
+height: auto;
+padding:20px 0;
+}
+
+nav section{
+border-top:1px solid #c4bcb1;
+}
+
+.navbar-inverse .navbar-nav > li > a:link {
+color: #7d746c;
+font-family:"Afta serif";
+margin-right:1px;
+padding:25px 57px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a {
+background-color: #b7b1a9;
+color: #fff;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.navbar-inverse .navbar-nav > li > a:link {
+	padding:20px 44px;
+	}
+}
+
+@media (max-width: 992px) {
+	.navbar-inverse .navbar-nav > li > a:link {
+	padding:15px 29px;
+	}
+}
+
+.img-team{
+  background-color:#dad5d0;
+  height:190px;
+  padding:10px 0;
+}
+
+.img-home-portfolio, .img-about, 
+.img-customer,
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.img-home-portfolio, .img-about{
+  background-color:#fff;
+  border:1px solid #b7b1a9;
+  height:150px;
+  padding:0;
+}
+
+.img-about{
+  height:190px;
+  padding:10px 0;
+}
+
+.last-portfolio-item{
+  background-color:#ede9e4;
+  border:1px solid #793b46;
+}
+
+.img-home-portfolio img, .img-about img, .img-team img{
+position:relative;
+margin:20px auto;
+}
+
+.img-home-portfolio h3, .img-about h3{
+color:#b7b1a9;
+font-family:"Afta serif";
+font-size:17px;
+text-align:center;
+text-transform:uppercase;
+}
+
+.last-portfolio-item h3{
+color:#793b46;
+}
+
+/* Effect 21: borders slight translate */
+.img-home-portfolio a {
+	text-shadow: none;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.img-home-portfolio a::before,
+.img-home-portfolio a::after {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #793b46;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.img-home-portfolio a::before {
+	top: 0;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.img-home-portfolio a::after {
+	bottom: 0;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.img-home-portfolio a:hover,
+.img-home-portfolio a:focus {
+	color: #fff;
+	text-decoration:none;
+}
+
+.img-home-portfolio a:hover::before,
+.img-home-portfolio a:focus::before,
+.img-home-portfolio a:hover::after,
+.img-home-portfolio a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+.tab-pane {
+  margin-top: 15px;
+}
+
+/*other pages */
+.page-header{
+background-color:#773e47;
+margin: 0 0 30px;
+padding:20px 0;
+border:0;
+text-align:center;
+}
+
+/* Page Sections */
+.practice-areas{
+padding-bottom:20px;
+}
+
+/*contacts background*/
+.white-bg{
+background-color:#fff;
+margin-bottom:30px;
+padding:10px 20px;
+}
+
+.section-colored {
+  background-color: #e1e1e1;
+ /* change this to change the background color of a colored section */
+}
+
+.sidebar {
+  margin-top: 40px;
+}
+
+.sidebar ul {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+
+/* Half Page Height Carousel Customization */
+.carousel {
+  height: 40%;
+}
+
+.carousel-control.left, .carousel-control.right{
+background-image:none;
+}
+
+.carousel-caption h1, .carousel-caption p{
+color:#e3e2e2;
+text-shadow:none;
+}
+
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-indicators li {
+background-color: #b7b1a9;
+border:0;
+}
+
+.carousel-indicators .active {
+width: 12px;
+height: 12px;
+margin: 0;
+background-color: #783c48;
+border:3px solid #b7b1a9;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Footer Styles */
+footer {
+  background-color:#2b2724;
+  padding:20px 0;
+}
+
+footer h4, footer p{
+  color:#b7b1a9;
+}
+
+footer h4{
+  border-bottom:1px solid #53504d;
+  font-size:26px;
+  padding-bottom:7px;
+  margin-bottom:7px;
+}
+
+footer p{
+  font-size:13px;
+  text-align:justify;
+}
+
+footer a, a{
+  color:#9c2835;
+  font-weight:bold;
+}
+
+.copy{
+background-color:#733e44;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+  .carousel {
+    height: 60%;
+ /* increases the carousel height so it looks good on phones */
+  }
+}
+
+@media (max-width: 480px) {
+
+  .carousel {
+    height: 70%;
+    display:none;
+ /* increases the carousel height so it looks good on phones */
+  }
+}
+
+@media (max-width: 1170px) {
+
+  .carousel {
+    height: 55%;
+ /* increases the carousel height so it looks good on phones */
+  }
+}
